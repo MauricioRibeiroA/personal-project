@@ -3,8 +3,11 @@ figure.charactersPics {
 	height: 100%;
 }
 
+h2 { color: red; }
+
 figure.charactersPics {
   position: relative;
   border: 8px solid white;
-  box-shadow: 1px 1px 4px black;
+  box-shadow: 1px 1px 40px black;
 }
+
