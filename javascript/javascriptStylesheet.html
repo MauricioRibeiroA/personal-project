@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+
+<html>
+<head><title>Prepare for the combat might warrior!!!</title></head>
+  
+<body>
+
+<h1></h1>
+
+<script>
+var user = prompt("Pick up your character. A WARRIOR, a NECROMANCER or a SUMMONER?").toUpperCase();
+
+
+switch(user) 
+{
+case 'WARRIOR':
+    var warriorType = prompt("Which one would you prefer? A TANKER, a warrior based on AGILITY or a HYBRID?").toUpperCase();
+    if(warriorType === "TANKER")
+    {
+    console.log("banzaaaai");
+    }
+    else if(warriorType === "AGILITY")
+    {
+    console.log("uaichaichaaaaai");
+    }
+    else(warriorType === "HYBRID")
+    {
+        console.log("Nice choice mate! With this one you can handle with strongs mages while you protect your friends");
+    }
+     if("WARRIOR" && "TANKER")
+    {
+        console.log("May the force be with you");
+     }
+    break;
+    
+case 'NECROMANCER':
+    var mage = prompt("Whooaaa! Like a powerful ZEALOT or an ARCHON?").toUpperCase();
+    if(mage === "ZEALOT")
+    {
+        console.log("My life for Aiur");
+    }
+    else
+    {
+        console.log("The merging is complete");
+    }
+    
+    break;
+case 'SUMMONER':
+    var summon = prompt("You came from the Mother Nature´s will. Your behavior is based on the nature of a WOLF or an EAGLE?").toUpperCase();
+    if(summon === "WOLF")
+    {
+        console.log("So you really know how to live in a wolf pack and takes advantage from this");
+    }
+    else
+    {
+        console.log("You´re dangerous as a strategic predator. You have good observation skills ");
+    }
+    break;
+
+default:
+console.log("iabadabaduuu");
+};
+
+if("ZEALOT" || "SUMMONER")
+{
+    console.log("You prefer to use the might of magic then the power of muscles");
+}
+
+  </script>
