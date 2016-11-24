@@ -1,0 +1,73 @@
+<!DOCTPYE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="../css/_style.css">
+	<script src="http://code.jquery.com/jquery-1.4.2.min.js">
+</script>
+	<title>RPG</title>
+
+<style type="text/css">
+  p {
+    text-align:justify;
+    text-indent: 1cm;
+  }
+  </style>
+</head>
+<body>
+
+<header>
+		<nav>
+		<a href="_instructions.html">INSTRUCTIONS&nbsp</a>
+		<a href="_warrior-page.html">WARRIORS&nbsp</a>
+		<a href="_necromancer-page.html">NECROMANCERS&nbsp</a>
+		<a href="_summoner-page.html">SUMMONERS</a>
+		</nav>
+</header>
+
+
+<form name="adventurer">
+<label>Adventurer name:</label>
+<input type="text"/>
+</form>
+
+<div id="content">
+	<script type="text/javascript">
+var userName;
+userName = prompt("Whats your name?");
+document.write("Hi, " + userName + "." + " Welcome to the fantasy world of the RPG. Let´s see how far can go your immagination." );
+</script>
+</div>	
+
+
+<div>
+<img id="leftside" src="../images/_tavern1.jpg" alt="Tavern entrance"/>
+<p>You just arrived in a strange tavern for the first time with a lot of drunk people. Some of them are suspicious, others carry weapons but at least nobody noticed you.</p>
+</div>
+
+<br>
+
+<img id="righside" src="../images/_tavernBarman.jpg" alt="Tavern barman"/>
+<p>After realizing that you were standing in the doorway for a long time, some people noticed that you should be an outsider. To avoid drawing attention you headed to the bar and ask for a mead.</p>
+
+
+<script>
+document.write("");
+</script>
+	
+
+</body>
+</html>
+
+
+
+
+<div id="leftside">
+<img id="leftside" src="../images/_tavern1.jpg" float="left" alt="Tavern entrance"/>
+<p>You just arrived in a strange tavern for the first time with a lot of drunk people. Some of them are suspicious, others carry weapons but at least nobody noticed you.</p>
+</div>
+
+.leftside {
+  position: relative;
+  border: 8px solid white;
+  box-shadow: 1px 1px 40px black;
+}

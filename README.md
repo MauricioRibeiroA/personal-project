@@ -11,6 +11,11 @@ Building my first own site
 
 #insert links from skills list to each description
 
+<<<<<<< HEAD
+=======
+#is true that align is not updated for html5? I need to use position instead o align?
+
+>>>>>>> branch-features
 #put the _ before the directories (unix, mac and windows organize the directories in different ways and the server usually are linux)
 
 #change all files to small letters because the servers differentiate small letters from big letters
@@ -53,6 +58,12 @@ Building my first own site
 
 #ALT attribute means ALTernative and its very useful for blind people and people with low speed internet
 
+<<<<<<< HEAD
 #How to run script inside <div> without div id="content"?
 
 #How can I go back to the homepage without starting the js everytime?
+=======
+hot to start a js script only once when entering the site and not all the time when you go to the homepage
+
+# ao final nomear o jogador como cavaleiro
+>>>>>>> branch-features

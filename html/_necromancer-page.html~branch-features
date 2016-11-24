@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Warriors Page</title>
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
+	<meta charset="UTF-8"/>
+</head>
+<body>
+	<header>
+		<nav>
+		<a href="_index.html">HOMEPAGE&nbsp</a>
+		<a href="_instructions.html">INSTRUCTIONS&nbsp</a>
+		<a href="_warrior-page.html">WARRIORS&nbsp</a>
+		<a href="_summoner-page.html">SUMMONERS</a>
+		</nav>
+		<H1>Welcome to (PREENCHER COM O NOME ATRIBUIDO PELO JAVASCRIPT) the online RPG website</H1>
+	</header>
+	<figure class="charactersPics">
+	<img src="../images/necromancer.jpg" alt="necromancer"/>
+</figure>
+<table border=1>
+	<tr>
+		<th>LVL</th>
+		<th>STR</th>
+		<th>DEX</th>
+		<th>INT</th>
+	</tr>
+<tr>
+<td>1</td>
+<td>2</td>
+<td>3</td>
+<td>6</td>
+</tr>
+
+<tr>
+<td>5</td>
+<td>4</td>
+<td>5</td>
+<td>12</td>
+</tr>
+
+<tr>
+<td>10</td>
+<td>6</td>
+<td>7</td>
+<td>18</td>
+</tr>
+
+<tr>
+<td>15</td>
+<td>8</td>
+<td>9</td>
+<td>24</td>
+</tr>
+</table>
+</br>
+<p>Builds</p>
+
+<p>Necromancer Skills</p>
+<ol>
+	<li>Reanimate</li>
+	<li>War cry</li>
+	<li>Vital blow</li>
+	<li>Moonlight</li>
+	<li>Walking dead</li>
+</ol>
+
+<p>Allows you to reanimate any dead beast.</p>
+<p>Increases your rage by 50.</p>
+<p>Steals a % of foe Hps corresponding to level.</p>
+<p>Allows you to reanimate another person + Reanimante skill effects</p>
+<p>Allows you to invokes a legion of minions from the power of nature.</p>
+
+<footer><p>Web Developer: Mauricio Ribeiro</p></footer>
+</body>
+</html>
+
+A spellcaster using "death" spells, focusing highly on bringing back it's enemies from the dead and using them towards their advantage (Much greater than a Death knight would).

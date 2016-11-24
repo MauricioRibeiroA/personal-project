@@ -1,8 +1,23 @@
+<<<<<<< HEAD
+=======
+/*50% de distancia do topo */
+/*20% distancia da esquerda*/
+
+>>>>>>> branch-features
 figure.charactersPics {
 	width: 100%;
 	height: 100%;
 }
 
+<<<<<<< HEAD
+=======
+figure.charactersPics {
+  position: relative;
+  border: 8px solid white;
+  box-shadow: 1px 1px 40px black;
+}
+
+>>>>>>> branch-features
 h2 { color: red; }
 
 h1 {text-align: center;
@@ -10,12 +25,15 @@ vertical-align: top; }
 
 footer {vertical-align: text-bottom;}
 
+<<<<<<< HEAD
 figure.charactersPics {
   position: relative;
   border: 8px solid white;
   box-shadow: 1px 1px 40px black;
 }
 
+=======
+>>>>>>> branch-features
 .sidenav {
     height: 100%;
     width: 0;
@@ -58,4 +76,19 @@ figure.charactersPics {
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
+<<<<<<< HEAD
 }
+=======
+}
+
+/*CSS for the pics at _game-page*/
+#leftside {
+    float:left;
+    margin:0 20px 10px 0;
+  }
+
+/*CSS for the pics at _game-page*/
+#rightside {
+    float:right;
+  }
+>>>>>>> branch-features
