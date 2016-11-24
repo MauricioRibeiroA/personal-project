@@ -52,3 +52,7 @@ Building my first own site
 # how to solve the problem between pics and borders 10 - 8'
 
 #ALT attribute means ALTernative and its very useful for blind people and people with low speed internet
+
+#How to run script inside <div> without div id="content"?
+
+#How can I go back to the homepage without starting the js everytime?
