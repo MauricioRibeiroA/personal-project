@@ -50,3 +50,5 @@ Building my first own site
 # // to comment at js
 
 # how to solve the problem between pics and borders 10 - 8'
+
+#ALT attribute means ALTernative and its very useful for blind people and people with low speed internet
