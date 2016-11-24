@@ -2,14 +2,49 @@
 <html>
 <head>
 	<title>Mauricio Personal Site</title>
-	<link rel="stylesheet" type="text/css" href="../css/style.css">
+	<link rel="stylesheet" type="text/css" href="../css/_style.css">
 	<meta charset="UTF-8"/>
 	<script src="http://code.jquery.com/jquery-1.4.2.min.js">
 </script>
-
 </head>
+
 <body>
+
+<header>
+<H1>Here the greatest warriors meets</H1>
+<img src="../images/MESA_RPG.JPG" align="right" alt="Rpg Table"/>
+
+</header>
+
+<div id="main">
 	
+  <h2>Take some minutes to read the instructions on the left side menu</h2>
+ 
+  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Open</span>
+
+</div>
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="#">INSTRUCTIONS</a>
+  <a href="_warrior-page.html">WARRIORS</a>
+  <a href="_necromancer-page.html">NECROMANCERS</a>
+  <a href="summoner-page.html">SUMMONERS</a>
+</div>
+
+<script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+    document.getElementById("main").style.marginLeft = "250px";
+    document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("main").style.marginLeft= "0";
+    document.body.style.backgroundColor = "white";
+}
+</script>
 <script>
 var userName;
 userName = prompt("Whats your name?");
@@ -17,25 +52,8 @@ alert("Hi, " + userName +"." + " Welcome to the fantasy world of the RPG!")
 </script>
 
 	<body background="../images/background.jpg">
-	<header>
-<H1>Welcome to (PREENCHER COM O NOME ATRIBUIDO PELO JAVASCRIPT) the online RPG website</H1>
 
 
-<nav>
-	<h2><a href="warrior-page.html">WARRIORS</a></h2>
-	<a href="necromancer-page.html">NECROMANCERS</a>
-	<a href="summoner-page.html">SUMMONERS</a>
-</nav>
-
-<img src="../images/MESA_RPG.JPG" alt="rpgTable"/>
-</header>
-<h2>Here the greatest warriors meets</h2>
-<p>Take some minutes to read the instructions of the site</p>
-
-<footer><p>Web Developer: Mauricio Ribeiro</p></footer>
+<footer>Web Developer: Mauricio Ribeiro</footer>
 </body>
 </html>
-<<<<<<< HEAD:html/index.html
-
-=======
->>>>>>> 19a9c4a222eb292eb9f973eff3d7ad0a02bec0ff:html/_index.html
