@@ -47,4 +47,6 @@ Building my first own site
 
 # <!--...--> to comment at html
 
+# // to comment at js
+
 # how to solve the problem between pics and borders 10 - 8'
