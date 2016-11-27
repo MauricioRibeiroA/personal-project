@@ -28,23 +28,21 @@ Building my first own site
 
 #usually use .jpg cause use less memory and processor from the server. .png is better when you use transparency
 
-#explore more the element <header> 5 - 18:50
-
+#explore more the element <header>
 # add to <footer> updated on...
 
 #standardizing the size of photos. Its better if you resize the pic and then put in the site instead of resize inside the attributes
 
-#span 7- 5:40 x div (inline x block-level)
+#span x div (inline x block-level)
 
-#style="text-align" 7 - 11:00 after that also configurate paragraph
+#style="text-align" after that also configurate paragraph
 
-#don´t forget the element <style></style> at the head 7 - 13:49
-
+#don´t forget the element <style></style> at the head 
 #download gimp to edit pics
 
 #<figure></figure> group of pics
 
-#<figcaption></figcaption> to subtitle the pics 9 - 14:00
+#<figcaption></figcaption> to subtitle the pics 
 
 #more pages for css (images, styles, form, etc)
 
@@ -75,3 +73,7 @@ how to start a js script only once when entering the site and not all the time w
 
 #study submit/button/get/post... learn how to create another page to works as the database
 >>>>>>> branch-features
+
+#study more about DOMContentLoaded e OnLoad
+
+#update backgrounds and find out how to scroll the page with the contents floating over the background
