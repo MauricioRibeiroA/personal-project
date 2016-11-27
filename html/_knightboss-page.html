@@ -1,0 +1,95 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="http://code.jquery.com/jquery-3.1.1.min.js">
+</script>
+    <title>lastknightboss</title>
+</head>
+
+<body>
+<center>
+<table cellspacing=5 cellpadding=8 cols=2>
+    <tr><td><p><img src="../images/_jokenpo.png" alt="Tavern barman" style="float:right;"/></br></br>text</script></p></td></tr>
+</center>
+</table>
+<script>
+
+var userChoice = prompt("Do you choose rock, paper or scissors?");
+var computerChoice = Math.random();
+document.write("You: " + userChoice)
+
+if (computerChoice < 0.34) {
+    computerChoice = "rock";
+} else if(computerChoice <= 0.67) {
+    computerChoice = "paper";
+} else {
+    computerChoice = "scissors";
+} document.write("</br>The boss: " + computerChoice);
+
+var compare = function(choice1, choice2)
+{
+    if (choice1 === choice2)
+    {
+    document.write("</br>The result is a tie!")
+    }
+    else if (choice1 === "rock")
+    {
+        if(choice2 === "scissors")
+        {
+            document.write("</br>Rock wins")
+        }
+        else 
+        {
+            document.write("</br>Paper wins");
+        }
+    }
+    else if (choice1 === "paper")
+    {
+        if (choice2 === "rock")
+        { 
+            document.write("</br>Paper wins");
+        }
+        else
+        {
+            document.write("</br>Scissors wins");
+        }
+    }
+    else if (choice1 === "scissors")
+    {
+        if (choice2 === "rock")
+        { 
+            document.write("</br>Rock wins");
+        }
+        else
+        {
+            document.write("</br>Scissors wins");
+        }
+    }
+    
+};
+
+compare(userChoice, computerChoice)
+
+</script>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+
+
+  <a href="_dragonboss-page.html">HOMEPAGE&nbsp</a>
+<footer>
+  
+</footer>
+</body>
+</html>
+
+<!-- Need to create this page for a while, because I know that document.write stop running all html on page-->

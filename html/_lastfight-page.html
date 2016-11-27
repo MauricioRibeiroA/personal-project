@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>LAST FIGHT</title>
+	   <script src="http://code.jquery.com/jquery-3.1.1.min.js">
+</script>
+</head>
+<body>
+<body>
+
+<h1>Historic of the battle!</h1>
+
+<script>
+var user = prompt("Pick up your character. A WARRIOR, a NECROMANCER or a SUMMONER?").toUpperCase();
+
+
+switch(user) 
+{
+case 'WARRIOR':
+    var warriorType = prompt("Which one would you prefer? A TANKER, a warrior based on AGILITY or a HYBRID?").toUpperCase();
+    if(warriorType === "TANKER")
+    {
+    document.write("</br>banzaaaai");
+    }
+    else if(warriorType === "AGILITY")
+    {
+    document.write("</br>uaichaichaaaaai");
+    }
+    else(warriorType === "HYBRID")
+    {
+        document.write("</br>Nice choice mate! With this one you can handle with strongs mages while you protect your friends");
+    }
+     if("WARRIOR" && "TANKER")
+    {
+        document.write("</br>May the force be with you");
+     }
+    break;
+    
+case 'NECROMANCER':
+    var mage = prompt("Whooaaa! Like a powerful ZEALOT or an ARCHON?").toUpperCase();
+    if(mage === "ZEALOT")
+    {
+        document.write("</br>My life for Aiur");
+    }
+    else
+    {
+        document.write("</br>The merging is complete");
+    }
+    
+    break;
+case 'SUMMONER':
+    var summon = prompt("You came from the Mother Nature´s will. Your behavior is based on the nature of a WOLF or an EAGLE?").toUpperCase();
+    if(summon === "WOLF")
+    {
+        document.write("</br>So you really know how to live in a wolf pack and takes advantage from this");
+    }
+    else
+    {
+        document.write("</br>You´re dangerous as a strategic predator. You have good observation skills ");
+    }
+    break;
+
+default:
+document.write("iabadabaduuu");
+};
+
+if("ZEALOT" || "SUMMONER")
+{
+    document.write("</br>You prefer to use the might of magic then the power of muscles");
+}
+
+ </script>
+</BR>
+<a href="_theend.html">NEXT</a>
+
+</body>
+</html>
+
+<!--
+Learn how to use the forms and databse pages to store the answers;
+
+When you show the historic  of the battle find a way to post some pics with the actions; -->
