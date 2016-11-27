@@ -7,6 +7,7 @@
 	<title>RPG</title>
 
 <style type="text/css">
+<<<<<<< HEAD
 #leftside {
     width: %;
     height: %;
@@ -23,12 +24,20 @@
     left: 70%;
   }
 
+=======
+  p {
+    text-align:center;
+    text-indent: 1cm;
+    font-size: 25px
+ }
+>>>>>>> branch-features
   </style>
 </head>
 <body>
 
 <header>
 		<nav>
+		<a href="_index.html">HOMEPAGE&nbsp</a>
 		<a href="_instructions.html">INSTRUCTIONS&nbsp</a>
 		<a href="_warrior-page.html">WARRIORS&nbsp</a>
 		<a href="_necromancer-page.html">NECROMANCERS&nbsp</a>
@@ -36,22 +45,174 @@
 		</nav>
 </header>
 
+<<<<<<< HEAD
 <div>
 <img src="../images/_tavern1.jpg" alt="Tavern entrance" id="leftside"/>
 <p>You just arrived in a strange tavern for the first time with a lot of drunk people. Some of them are suspicious, others carry weapons but at least nobody noticed you.</p>
 </div>
+=======
 
-<br>
 
+
+<div id="content">
+<script type="text/javascript">
+var userName;
+userName = prompt("Whats your name adventurer");
+document.write("Hi, " + userName + "." + " Welcome to the fantasy world of the RPG. Let´s see how far can go your immagination." );
+</script>
+</div>	
+
+
+<center>
+<table cellspacing=5 cellpadding=8 cols=2>
+	<tr>
+	<td><p><img src="../images/_tavern1.jpg" alt="Tavern entrance" style="float: left;"/></br>You just arrived in a strange tavern for the first time with a lot of drunk people.</br> Some of them are suspicious, others carry weapons but at least nobody noticed you. After realizing that you were standing in the doorway for a long time,</br> some people noticed that you should be an outsider.</br> To avoid drawing attention you headed to the bar and ask for a beer.</p></td></tr>
+	<tr><td><p><img src="../images/_tavernBarman.jpg" alt="Tavern barman" style="float:right;"/></br></br><script type="text/javascript">document.write("Welcome " + userName + "!</br>"+ "" + "I never saw you here before.</br> How can I help a brave adventurer like you?</br> Maybe on glass of the strongest wine from my humble tavern?")</script></p></td></tr>
+	<tr><td><p><img src="../images/_bard.jpg" alt="Tavern entrance" style="float: left;"/></br></br>After picking up your mug of hot wine and a plate of old and hard breads you turn to the tavern. A bard in particular catched your eyes. He is singing the great feats of an unknown brave warrior</p></td></tr>
+    <tr><td><p><img src="../images/_capuz.jpg" alt="Tavern barman" style="float:right;"/></br></br>text</script></p></td></tr>
+    <tr><td><p><img src="../images/_cointoss.gif" alt="Tavern entrance" style="float: left;"/></br>So you think you can handle with me big boy!?!</br> Let´s see how is going your lucky today!</br></br></br> I pick up Heads! You go for Tails!</p></td>
+    </tr>
+</center>
+</table>
+
+<script>
+function myFunction() {
+    var coinFace = Math.floor(Math.random() * 2);
+
+while(coinFace === 0){
+document.getElementById("1").innerHTML = "Heads! Flipping again...";
+
+    var coinFace = Math.floor(Math.random() * 2);
+}
+document.getElementById("2").innerHTML = "Tails! Done flipping.";
+}
+</script></br></br></br></br>
+
+<div id="1"></div>
+<div id="2"></div>
+<input type="button" name="submit" value="Throw the coin!" text-align="right" onclick="myFunction()"></br></br></br></br>
+
+<h2>Pick up your hero</h2>
+<center><table>
+<tr>
+<td><a href="_warrior-page.html"><img src="../images/warriorsmall.jpg" alt="warrior"></td></a>
+<td><a href="_necromancer-page.html"><img src="../images/necromancersmall.jpg" alt="necromancer"></td></a>
+<td><a href="_summoner-page.html"><img src="../images/summonersmall.jpg" alt="summoner"></td></a>
+
+</tr>
+</table></center></br></br></br></br>
+
+<center>
+<table cellspacing=5 cellpadding=8 cols=2>
+	<tr><td><p><img src="../images/_walking.jpg" alt="Tavern entrance" style="float: right;"/></br>You just arrived in a strange tavern for the first time with a lot of drunk people.</br> Some of them are suspicious, others carry weapons but at least nobody noticed you. After realizing that you were standing in the doorway for a long time,</br> some people noticed that you should be an outsider.</br> To avoid drawing attention you headed to the bar and ask for a beer.</p></td></tr>
+	<tr><td><p><img src="../images/_lastknight.jpg" alt="Tavern barman" style="float:left;"/></br></br>text</script></p></td></tr>
+	<tr><td><p><img src="../images/_jokenpo.png" alt="Tavern barman" style="float:right;"/></br></br>text</script></p></td></tr>
+</center>
+</table>
+
+>>>>>>> branch-features
+
+
+<<<<<<< HEAD
 <img src="../images/_tavernBarman.jpg" alt="Tavern barman" id="rightside"/>
 <p>After realizing that you were standing in the doorway for a long time, some people noticed that you should be an outsider. To avoid drawing attention you headed to the bar and ask for a mead.</p>
+=======
+>>>>>>> branch-features
 
 
 <script>
-document.write("");
-</script>
-	
+function trigger() {
+    var userChoice = prompt("Do you choose rock, paper or scissors?");
+    var computerChoice = Math.random();
+
+if (computerChoice < 0.34) {
+    computerChoice = "rock";
+} else if(computerChoice <= 0.67) {
+    computerChoice = "paper";
+} else {
+    computerChoice = "scissors";
+} document.write("Computer: " + computerChoice);
+
+var compare = function(choice1, choice2)
+{
+    if (choice1 === choice2)
+    {
+    document.write("</br>The result is a tie!")
+    }
+    else if (choice1 === "rock")
+    {
+        if(choice2 === "scissors")
+        {
+            document.write("</br>rock wins")
+        }
+        else 
+        {
+            document.write("paper wins")
+        }
+    }
+    else if (choice1 === "paper")
+    {
+        if (choice2 === "rock")
+        { 
+            document.write("</br>paper wins")
+        }
+        else
+        {
+            document.write("scissors wins")
+        }
+    }
+    else if (choice1 === "scissors")
+    {
+        if (choice2 === "rock")
+        { 
+            document.write("rock wins")
+        }
+        else
+        {
+            document.write("scissors wins")
+        }
+    }
+    
+};
+
+compare(userChoice, computerChoice)
+
+</script></br>
+
+<form>
+<input type="button" name="submit" value="Start Jokenpo" text-align="right" onclick="trigger()"></br></br></br></br>
+</form>
 
 </body>
 </html>
 
+<<<<<<< HEAD
+=======
+
+
+
+<!-- <div id="leftside">
+<img id="leftside" src="../images/_tavern1.jpg" float="left" alt="Tavern entrance"/>
+<p>You just arrived in a strange tavern for the first time with a lot of drunk people. Some of them are suspicious, others carry weapons but at least nobody noticed you.</p>
+</div>
+
+.leftside {
+  position: relative;
+  border: 8px solid white;
+  box-shadow: 1px 1px 40px black;
+}
+
+FIND A WAY TO EXPLORE THE FORMS DINAMICALLY WHILE THE ADVENTURE FLOWS
+<form name="adventurer">
+<label>Adventurer name:</label>
+<input type="text"/>
+</form>
+
+IMPROVE THE ADVENTURE NEXT TIME USING THIS
+http://www.w3schools.com/howto/howto_css_modal_images.asp
+http://www.w3schools.com/css/css3_images.asp
+http://www.eobcards.com/tables102.htm
+
+
+-->
+>>>>>>> branch-features

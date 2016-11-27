@@ -68,6 +68,8 @@ figure.charactersPics {
     margin-left: 50px;
 }
 
+/*using id you can create a lot of configurations*/
+
 #main {
     transition: margin-left .5s;
     padding: 16px;
@@ -81,6 +83,7 @@ figure.charactersPics {
 =======
 }
 
+<<<<<<< HEAD
 /*CSS for the pics at _game-page*/
 #leftside {
     width: 50%;
@@ -98,4 +101,37 @@ figure.charactersPics {
     top: 40%;
     left: 10%;
   }
+>>>>>>> branch-features
+=======
+/*CSS for the pics at _game-page
+using name + class you can create a lot of configurations*/
+img.leftside {
+    float:left;
+    text-indent: 1cm;
+    margin: 0 0 10px 10px;
+  }
+
+
+/*CSS for the pics at _game-page-using name + class you can create a lot of configurations*/
+img.rightside {
+    float:right;
+    text-indent: 1cm;
+    margin: 0 0 10px 10px;
+  }
+
+
+
+/*CSS 
+    margin:x y z a;
+
+    WHERE:
+    x = 
+    y =
+    z =
+    a =
+
+
+    
+  Good resource to use at texts:  text-align-last:;
+    */
 >>>>>>> branch-features
