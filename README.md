@@ -29,7 +29,7 @@ Building my first own site
 
 # add to <footer> updated on...
 
-#standardizing the size of photos
+#standardizing the size of photos. Its better if you resize the pic and then put in the site instead of resize inside the attributes
 
 #span 7- 5:40 x div (inline x block-level)
 
@@ -55,6 +55,8 @@ Building my first own site
 
 #ALT attribute means ALTernative and its very useful for blind people and people with low speed internet
 
-hot to start a js script only once when entering the site and not all the time when you go to the homepage
+how to start a js script only once when entering the site and not all the time when you go to the homepage - for now the solution was to create the cover page
 
 # ao final nomear o jogador como cavaleiro
+
+#study submit/button/get/post... learn how to create another page to works as the database
