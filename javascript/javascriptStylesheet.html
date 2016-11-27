@@ -92,7 +92,7 @@ function setDisabled() {
   document.getElementById("foo").disabled = true;
 }
 
-// Chamada da função
+
 setDisabled();
 </script>
 
@@ -107,4 +107,22 @@ setDisabled();
 <script type="text/javascript">
 var v = document.getElementsByTagName("audio")[0];
 v.play();
+</script>
+
+
+
+<!-- Changes an HTML with a js-->
+<p id="demo"></p>
+
+function myFunction() {
+    return userName;
+}
+
+document.getElementById("demo").innerHTML = myFunction();
+
+
+
+
+<script>
+document.write(userName);
 </script>
