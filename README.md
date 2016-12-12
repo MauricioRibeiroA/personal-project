@@ -77,3 +77,5 @@ how to start a js script only once when entering the site and not all the time w
 #study more about DOMContentLoaded e OnLoad
 
 #update backgrounds and find out how to scroll the page with the contents floating over the background
+
+#remember to use the target="_blank" for externs links
