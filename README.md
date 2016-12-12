@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Personal-Challenge-2.5
 Building my first own site
 
@@ -79,3 +80,7 @@ how to start a js script only once when entering the site and not all the time w
 #update backgrounds and find out how to scroll the page with the contents floating over the background
 
 #remember to use the target="_blank" for externs links
+=======
+# personal-project
+My website until the end of the course
+>>>>>>> 071233391e9a7ecc506362748151edd112d0334d
